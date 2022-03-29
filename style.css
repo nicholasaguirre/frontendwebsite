@@ -264,7 +264,6 @@
       padding: 0 8px;
       font-size: 18px;
     }
-  }
   
   @media (max-width: 480px) {
     .footer__logo {
@@ -274,4 +273,46 @@
     .footer__link {
       font-size: 16px;
     }
+
+  @media (max-width: 728px) {
+      .row{
+          flex-direction: column;
+      }
+
+      .home__description{
+          margin-bottom: 24px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+
+      h1{
+          text-align: center;
+          font-size: 60px;
+      }
+
+      .subheader {
+          text-align: center;
+          font-size: 28px;
+      }
+
+      ul{
+          display: none;
+      }
+
+      .section__description{
+          flex-direction: column;
+      }
+
+      .section__description--wrapper{
+          width: 100%;
+      }
+
+      .about__img--wrapper {
+          width: 100%;
+      }
+
+      #discord .section__description {
+          flex-direction: column-reverse;
+      }
   }
